@@ -1,0 +1,260 @@
+.team-box {
+    padding: 70px 0px;
+}
+
+.title-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-box h2 {
+    font-size: 42px;
+    font-family: "Catamaran", sans-serif;
+    color: #222222;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.title-box h2::after {
+    content: "";
+    position: absolute;
+    background: url(../images/tag-line.png) no-repeat center;
+    width: 120px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.title-box h2 span {
+    color: #00cb86;
+    text-decoration: underline;
+}
+
+.our-team {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.our-team:before,
+.our-team:after {
+    content: "";
+    width: 130px;
+    height: 130px;
+    background: #800000;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.our-team:before {
+    top: 0px;
+    left: 0;
+}
+
+.our-team:after {
+    bottom: 0px;
+    right: 0;
+}
+
+.our-team .pic {
+    margin: 8px;
+    position: relative;
+    border: 3px solid #32b777;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .pic {
+    border-color: #800000;
+}
+
+.our-team .pic:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #00cb86;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .pic:after {
+    height: 100%;
+    opacity: 0.85;
+}
+
+.our-team img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content {
+    width: 100%;
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    transition: all 0.5s ease 0.2s;
+}
+
+.our-team:hover .team-content {
+    bottom: 38%;
+}
+
+.our-team .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.our-team .post {
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.our-team .social {
+    padding: 0;
+    margin: 40px 0 0 0;
+    list-style: none;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 7px;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .social li a:hover {
+    background: #fff;
+    color: #800000;
+}
+
+.lni-check-mark-circle,
+.lni-bolt {
+    color: #800000;
+}
+
+.cont-line {
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 100%;
+    /* float: left; */
+}
+
+.icon-b {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    border: 2px dotted #32b777;
+    margin-right: 10px;
+    color: #32b777;
+    border-radius: 50%;
+}
+
+.dit-right h4 {
+    font-size: 18px;
+    color: #800000;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.dit-right {
+    padding-right: 14px;
+}
+
+.dit-right p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.dit-right a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.dit-right a:hover {
+    color: #32b777;
+}
+
+.read-more {
+    color: #32b777;
+}
+
+.read-more:hover {
+    color: #70bb97;
+}
+
+/* Counter */
+
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center;
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2;
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px;
+}
+
+.counter-box.colored {
+    background: #3acf87;
+}
+
+.btn-outline-ilri {
+    color: #682622;
+    border-color: #682622;
+}
+.btn-outline-ilri:hover {
+    color: #fff;
+    background-color: #682622;
+    border-color: #682622;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}

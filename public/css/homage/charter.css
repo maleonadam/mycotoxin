@@ -1,0 +1,385 @@
+.h6,
+h6 {
+    color: black;
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.charter p {
+    color: black;
+}
+
+.s1 {
+    color: black;
+    font-family: Cambria, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s2 {
+    color: black;
+    font-family: Cambria, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s3 {
+    color: black;
+    font-family: Cambria, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 8pt;
+    vertical-align: 3pt;
+}
+
+.s4 {
+    color: #0462c1;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+h2 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 8pt;
+    vertical-align: 4pt;
+}
+
+.s5 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+    counter-reset: c1 1;
+}
+
+#l1 > li > *:first-child:before {
+    counter-increment: c1;
+    content: counter(c1, decimal) ". ";
+    color: black;
+    font-family: Cambria, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#l1 > li:first-child > *:first-child:before {
+    counter-increment: c1 0;
+}
+
+li {
+    display: block;
+}
+
+#l2 {
+    padding-left: 0pt;
+}
+
+#l2 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l3 {
+    padding-left: 0pt;
+}
+
+#l3 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l4 {
+    padding-left: 0pt;
+}
+
+#l4 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l5 {
+    padding-left: 0pt;
+}
+
+#l5 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l6 {
+    padding-left: 0pt;
+}
+
+#l6 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l7 {
+    padding-left: 0pt;
+}
+
+#l7 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l8 {
+    padding-left: 0pt;
+}
+
+#l8 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l9 {
+    padding-left: 0pt;
+}
+
+#l9 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l10 {
+    padding-left: 0pt;
+}
+
+#l10 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l11 {
+    padding-left: 0pt;
+}
+
+#l11 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l12 {
+    padding-left: 0pt;
+}
+
+#l12 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l13 {
+    padding-left: 0pt;
+}
+
+#l13 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l14 {
+    padding-left: 0pt;
+}
+
+#l14 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l15 {
+    padding-left: 0pt;
+}
+
+#l15 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l16 {
+    padding-left: 0pt;
+}
+
+#l16 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l17 {
+    padding-left: 0pt;
+}
+
+#l17 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+table,
+tbody {
+    vertical-align: top;
+    overflow: visible;
+}
